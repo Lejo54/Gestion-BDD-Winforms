@@ -26,11 +26,19 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
               "RelativeDocumentMoniker": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
+<<<<<<< HEAD
               "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs*",
               "RelativeToolTip": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs*",
               "ViewState": "AgIAAAIAAAAAAAAAAAAawBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T07:18:04.265Z",
+=======
+              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
+              "RelativeToolTip": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAawBUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T07:13:38.59Z",
+>>>>>>> a0e5c94e102d41796d72d7e98a25e5b1aeb81758
               "EditorCaption": ""
             },
             {
@@ -39,8 +47,13 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
               "RelativeDocumentMoniker": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
+<<<<<<< HEAD
               "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs [Design]*",
               "RelativeToolTip": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs [Design]*",
+=======
+              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs [Design]",
+              "RelativeToolTip": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs [Design]",
+>>>>>>> a0e5c94e102d41796d72d7e98a25e5b1aeb81758
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T06:50:18.232Z",
               "EditorCaption": " [Design]"

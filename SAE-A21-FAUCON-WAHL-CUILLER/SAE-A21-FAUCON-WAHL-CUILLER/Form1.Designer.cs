@@ -34,11 +34,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(126, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(111, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "AAAAAAAAAAAAAAa";
+=======
+            this.label1.Location = new System.Drawing.Point(322, 304);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "label1";
+>>>>>>> a0e5c94e102d41796d72d7e98a25e5b1aeb81758
             // 
             // Form1
             // 
@@ -48,6 +56,10 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+<<<<<<< HEAD
+=======
+            this.Load += new System.EventHandler(this.Form1_Load);
+>>>>>>> a0e5c94e102d41796d72d7e98a25e5b1aeb81758
             this.ResumeLayout(false);
             this.PerformLayout();
 
