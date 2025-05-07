@@ -16,5 +16,10 @@ namespace SAE_A21_FAUCON_WAHL_CUILLER
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //aaaaaaaaaaaaaaaaaaaaa
+        }
     }
 }
