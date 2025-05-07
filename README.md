@@ -8,7 +8,7 @@ Bon z'êtes pas cons, vous savez ce qu'il faut faire
 ## Liens au cazou
 [Lien vers le sujet](https://git.unistra.fr/m.faucon/sae-a21-FAUCON-CUILLER-WAHL/-/tree/main/Sujet-BDD)
 
-[Le cousin](chatgpt.com) | on se sait
+[Le cousin](https://chatgpt.com) | on se sait
 
 [Le graal](https://stackoverflow.com) | Stackoverflow, vrm un banger ce site UTILISEZ LE SVP le cousin il est con parfois
 
