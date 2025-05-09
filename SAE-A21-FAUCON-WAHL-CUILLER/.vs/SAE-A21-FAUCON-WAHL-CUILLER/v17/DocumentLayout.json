@@ -28,9 +28,10 @@
               "RelativeDocumentMoniker": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
               "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
               "RelativeToolTip": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAawBYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAIwJIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T07:18:04.265Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -39,10 +40,11 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
               "RelativeDocumentMoniker": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
-              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs [Design]*",
-              "RelativeToolTip": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-05-07T06:50:18.232Z"
+              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs [Design]",
+              "RelativeToolTip": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:50:18.232Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
