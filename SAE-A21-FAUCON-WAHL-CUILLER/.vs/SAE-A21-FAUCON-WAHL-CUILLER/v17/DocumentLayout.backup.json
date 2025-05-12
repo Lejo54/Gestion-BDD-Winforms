@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{755A1CBE-A9C1-4A82-8D1B-5BEC417E158B}|SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER.csproj|c:\\users\\fcnma\\documents\\uni\\saea21\\a21 main\\sae-a21-faucon-cuiller-wahl\\sae-a21-faucon-wahl-cuiller\\sae-a21-faucon-wahl-cuiller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{755A1CBE-A9C1-4A82-8D1B-5BEC417E158B}|SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER.csproj|C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\sae-a21-faucon-wahl-cuiller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{755A1CBE-A9C1-4A82-8D1B-5BEC417E158B}|SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER.csproj|solutionrelative:sae-a21-faucon-wahl-cuiller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755A1CBE-A9C1-4A82-8D1B-5BEC417E158B}|SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER.csproj|c:\\users\\fcnma\\documents\\uni\\saea21\\a21 main\\sae-a21-faucon-cuiller-wahl\\sae-a21-faucon-wahl-cuiller\\sae-a21-faucon-wahl-cuiller\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755A1CBE-A9C1-4A82-8D1B-5BEC417E158B}|SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER.csproj|solutionrelative:sae-a21-faucon-wahl-cuiller\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{755A1CBE-A9C1-4A82-8D1B-5BEC417E158B}|SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER.csproj|C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\sae-a21-faucon-wahl-cuiller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -28,7 +32,7 @@
               "RelativeDocumentMoniker": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
               "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
               "RelativeToolTip": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAIwJIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAhwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T07:18:04.265Z",
               "IsPinned": true,
@@ -37,6 +41,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Connexion.cs",
+              "DocumentMoniker": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Connexion.cs",
+              "RelativeDocumentMoniker": "SAE-A21-FAUCON-WAHL-CUILLER\\Connexion.cs",
+              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Connexion.cs",
+              "RelativeToolTip": "SAE-A21-FAUCON-WAHL-CUILLER\\Connexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:48:44.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\SAE-A21-FAUCON-WAHL-CUILLER\\SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",
               "RelativeDocumentMoniker": "SAE-A21-FAUCON-WAHL-CUILLER\\Form1.cs",

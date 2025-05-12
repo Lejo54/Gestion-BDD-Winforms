@@ -8,14 +8,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Pinpon;
 
 namespace SAE_A21_FAUCON_WAHL_CUILLER
 { 
 
     public partial class Form1 : Form
     {
-        private SQLiteConnection cx;
         private DataSet ds;
+        private SQLiteConnection cx;
         private BindingSource bs;
         private BindingSource bs2;
         public Form1()
@@ -33,15 +34,14 @@ namespace SAE_A21_FAUCON_WAHL_CUILLER
 
             try
             {
-                cx = new SQLiteConnection();
-                string chcon = @"Data Source = SDIS67.db";
-                cx.ConnectionString = chcon;
-                cx.Open();
+
+                    
+                cx=Connexion.Connec;
+
 
                 DataTable dt = cx.GetSchema("Tables");
 
                 string requete;
-                string liste = "";
                 foreach (DataRow ligne in dt.Rows)
                 {
                     string nomtable = ligne[2].ToString();
@@ -49,9 +49,7 @@ namespace SAE_A21_FAUCON_WAHL_CUILLER
                     SQLiteCommand cmd = new SQLiteCommand(requete, cx);
                     SQLiteDataAdapter da = new SQLiteDataAdapter(cmd);
                     da.Fill(ds, ligne[2].ToString());
-                    liste = liste + nomtable + "\n";
                 }
-                MessageBox.Show(liste);
 
                 ds.Relations.Add("lien",
                     ds.Tables["Caserne"].Columns["id"],
