@@ -1,6 +1,6 @@
 ﻿namespace _1_1View_UC
 {
-    partial class UserControl1
+    partial class OneToOneViewUC
     {
         /// <summary>
         /// Required designer variable.

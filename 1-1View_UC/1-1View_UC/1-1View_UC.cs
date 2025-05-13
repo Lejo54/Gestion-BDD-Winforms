@@ -13,107 +13,46 @@ using System.Reflection.Emit;
 
 namespace _1_1View_UC
 {
-    public partial class UserControl1: UserControl
+    public partial class OneToOneViewUC: UserControl
     {
-        internal class Connexion
-        {
-            // Objet Connection
-            private static SQLiteConnection connec;
 
-            // Constructeur privé pour empêcher l'instanciation directe depuis l'extérieur.
-            private Connexion() { }
-
-            // Méthode publique pour obtenir l'instance unique de la classe.
-            public static SQLiteConnection Connec
-            {
-                get
-                {
-                    // Si l'instance n'existe pas, on la crée.
-                    if (connec == null)
-                    {
-                        try
-                        {
-                            // Chaîne de connexion à votre base de données
-                            string chaine = @"Data Source = SDIS67.db";
-                            connec = new SQLiteConnection(chaine);
-                            connec.Open();
-                        }
-                        catch (SQLiteException err)
-                        {
-                            Console.WriteLine($"Erreur lors de l'ouverture de la connexion : {err.Message}");
-                        }
-                    }
-                    //Dans tous les cas on renvoie la connexion
-                    return connec;
-                }
-            }
-
-            // Méthode pour fermer proprement la connexion
-            public static void FermerConnexion()
-            {
-                if (connec != null)
-                {
-                    try
-                    {
-                        connec.Close();
-                        connec.Dispose();
-                        connec = null; // Libération pour permettre une nouvelle connexion propre
-                    }
-                    catch (Exception err)
-                    {
-                        Console.WriteLine($"Erreur lors de la fermeture de la connexion : {err.Message}");
-                    }
-                }
-            }
-        }
-
-
-        private SQLiteConnection cx;
-        private DataSet ds = new DataSet();
+        private DataSet _ds;
         private BindingSource bs;
         private BindingSource bs2;
 
-        public UserControl1()
+        public OneToOneViewUC()
         {
             InitializeComponent();
         }
 
+        public OneToOneViewUC(DataSet ds) {
+            InitializeComponent();
+             _ds = ds;
+        }
         private void UserControl1_Load(object sender, EventArgs e)
         {
 
             ////////////:A enlever
-            cx = Connexion.Connec; //On se connecte
-
-            DataTable dt = cx.GetSchema("Tables"); //On crée un DataTable pour contenir les données de la table
 
 
-            string requete;
 
-            string[] tablesVoulues = { "Engin", "Caserne" }; // Les deux tables à charger
-
-            foreach (string nomtable in tablesVoulues)
+            if (!DesignMode)
             {
-                requete = "SELECT * FROM " + nomtable;
 
-                SQLiteCommand cmd = new SQLiteCommand(requete, cx);
-                SQLiteDataAdapter da = new SQLiteDataAdapter(cmd);
+                //Ajout de la relation //TODO : L'enlever, il va etre fait de base
+                _ds.Relations.Add("lien",
+                        _ds.Tables["Caserne"].Columns["id"],
+                        _ds.Tables["Engin"].Columns["idCaserne"]);
+                ////////////////////////////
+                ///
 
-                da.Fill(ds, nomtable); // Remplit le DataSet avec la table
-            }
 
 
-            //Ajout de la relation //TODO : L'enlever, il va etre fait de base
-            ds.Relations.Add("lien",
-                    ds.Tables["Caserne"].Columns["id"],
-                    ds.Tables["Engin"].Columns["idCaserne"]);
-            ////////////////////////////
-            ///
-
-            //Ajout d'un BindingSource pour récuperer les casernes
-            bs = new BindingSource { DataSource = ds.Tables["Caserne"] };
-            cboCasernes.DisplayMember = "nom";
-            cboCasernes.ValueMember = "id";
-            cboCasernes.DataSource = bs;
+                //Ajout d'un BindingSource pour récuperer les casernes
+                bs = new BindingSource { DataSource = _ds.Tables["Caserne"] };
+                cboCasernes.DisplayMember = "nom";
+                cboCasernes.ValueMember = "id";
+                cboCasernes.DataSource = bs;
 
 
             //Ajout d'un BindingSource pour récuperer les engins
@@ -121,11 +60,12 @@ namespace _1_1View_UC
             bs2.DataMember = "lien";
             //creer un string qui contient le numero de la caserne, puis le type d'engin, puis son code
 
-            lblTypeEngin.Text = (bs2.Current as DataRowView)?["idCaserne"] + "-" +
-                    (bs2.Current as DataRowView)?["codeTypeEngin"] + "-" +
-                    (bs2.Current as DataRowView)?["numero"];
+
+            lblTypeEngin.DataBindings.Add("Text", bs2, "codeTypeEngin");
 
             dataGridView1.DataSource = bs2;
+
+            }
         }
 
 

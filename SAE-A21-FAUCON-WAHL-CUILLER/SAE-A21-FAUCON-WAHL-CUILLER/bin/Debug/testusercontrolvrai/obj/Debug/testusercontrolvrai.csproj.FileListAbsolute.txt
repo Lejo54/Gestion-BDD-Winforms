@@ -1,9 +1,0 @@
-C:\Users\fcnma\source\repos\testusercontrolvrai\testusercontrolvrai\bin\Debug\testusercontrolvrai.dll
-C:\Users\fcnma\source\repos\testusercontrolvrai\testusercontrolvrai\bin\Debug\testusercontrolvrai.pdb
-C:\Users\fcnma\source\repos\testusercontrolvrai\testusercontrolvrai\obj\Debug\testusercontrolvrai.csproj.AssemblyReference.cache
-C:\Users\fcnma\source\repos\testusercontrolvrai\testusercontrolvrai\obj\Debug\testusercontrolvrai.Properties.Resources.resources
-C:\Users\fcnma\source\repos\testusercontrolvrai\testusercontrolvrai\obj\Debug\testusercontrolvrai.csproj.GenerateResource.cache
-C:\Users\fcnma\source\repos\testusercontrolvrai\testusercontrolvrai\obj\Debug\testusercontrolvrai.csproj.CoreCompileInputs.cache
-C:\Users\fcnma\source\repos\testusercontrolvrai\testusercontrolvrai\obj\Debug\testusercontrolvrai.dll
-C:\Users\fcnma\source\repos\testusercontrolvrai\testusercontrolvrai\obj\Debug\testusercontrolvrai.pdb
-C:\Users\fcnma\source\repos\testusercontrolvrai\testusercontrolvrai\obj\Debug\testusercontrolvrai.Plinker.resources

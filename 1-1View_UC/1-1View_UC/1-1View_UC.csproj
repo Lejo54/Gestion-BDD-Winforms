@@ -53,6 +53,8 @@
     <Compile Include="1-1View_UC.Designer.cs">
       <DependentUpon>1-1View_UC.cs</DependentUpon>
     </Compile>
+    <Compile Include="Connexion.cs" />
+    <Compile Include="mesDatas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>

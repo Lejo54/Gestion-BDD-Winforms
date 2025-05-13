@@ -138,12 +138,16 @@ namespace SAE_A21_FAUCON_WAHL_CUILLER
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (bs2.Position < bs2.Count - 1)
-            {
-                bs2.MovePrevious();
-            }
+
+            Form form = new _1_1_Engins();
+            form.ShowDialog();
 
 
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }
