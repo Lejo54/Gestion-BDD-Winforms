@@ -9,3 +9,4 @@ C:\Users\fcnma\Documents\Uni\saeA21\a21 MAIN\sae-a21-FAUCON-CUILLER-WAHL\1-1View
 C:\Users\fcnma\Documents\Uni\saeA21\a21 MAIN\sae-a21-FAUCON-CUILLER-WAHL\1-1View_UC\1-1View_UC\obj\Debug\1-1View_UC.dll
 C:\Users\fcnma\Documents\Uni\saeA21\a21 MAIN\sae-a21-FAUCON-CUILLER-WAHL\1-1View_UC\1-1View_UC\obj\Debug\1-1View_UC.pdb
 C:\Users\fcnma\Documents\Uni\saeA21\a21 MAIN\sae-a21-FAUCON-CUILLER-WAHL\1-1View_UC\1-1View_UC\obj\Debug\_1_1View_UC.OneToOneViewUC.resources
+C:\Users\fcnma\Documents\Uni\saeA21\a21 MAIN\sae-a21-FAUCON-CUILLER-WAHL\1-1View_UC\1-1View_UC\obj\Debug\_1_1View_UC.Properties.Resources.resources

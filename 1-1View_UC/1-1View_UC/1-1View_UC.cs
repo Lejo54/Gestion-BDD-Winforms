@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Data.SQLite;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Reflection.Emit;
+using System.Drawing.Drawing2D;
 
 namespace _1_1View_UC
 {
@@ -31,10 +32,36 @@ namespace _1_1View_UC
         }
 
 
-        private void UserControl1_Load(object sender, EventArgs e)
+      
+
+
+    private void OneToOneViewUC_Load(object sender, EventArgs e)
         {
 
+
+
+
+
+
+
+
+
+
             ////////////:A enlever
+            SQLiteConnection cx = Connexion.Connec; //On se connecte
+            DataTable dt = cx.GetSchema("Tables"); //On crée un DataTable pour contenir les données de la table
+
+            string requete; _ds = new DataSet();
+
+            foreach (DataRow row in dt.Rows)
+            {
+                string nomtable = row["TABLE_NAME"].ToString(); //On récupère le nom de la table
+                requete = "SELECT * FROM " + nomtable;
+                SQLiteCommand cmd = new SQLiteCommand(requete, cx);
+                SQLiteDataAdapter da = new SQLiteDataAdapter(cmd);
+
+                da.Fill(_ds, nomtable);
+            }
 
 
 
