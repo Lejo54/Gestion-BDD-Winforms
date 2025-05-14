@@ -29,6 +29,8 @@ namespace _1_1View_UC
             InitializeComponent();
              _ds = ds;
         }
+
+
         private void UserControl1_Load(object sender, EventArgs e)
         {
 
@@ -39,7 +41,6 @@ namespace _1_1View_UC
             if (!DesignMode)
             {
 
-                //Ajout de la relation //TODO : L'enlever, il va etre fait de base
                 _ds.Relations.Add("lien",
                         _ds.Tables["Caserne"].Columns["id"],
                         _ds.Tables["Engin"].Columns["idCaserne"]);

@@ -22,11 +22,26 @@ namespace TestWithUC
 
         private void Form1_Load(object sender, EventArgs e)
         {
-             
+            SQLiteConnection cx = Connexion.Connec; //On se connecte
+
+            DataTable dt = cx.GetSchema("Tables"); //On crée un DataTable pour contenir les données de la table
+
+            string requete;
+
+            foreach (DataRow row in dt.Rows)
+            {
+                string nomtable = row["TABLE_NAME"].ToString(); //On récupère le nom de la table
+                requete = "SELECT * FROM " + nomtable;
+                SQLiteCommand cmd = new SQLiteCommand(requete, cx);
+                SQLiteDataAdapter da = new SQLiteDataAdapter(cmd);
+
+                da.Fill(MesDatas.DsGlobal, nomtable);
+            }
+
 
             OneToOneViewUC oneToOneViewUC = new OneToOneViewUC(MesDatas.DsGlobal);
-            oneToOneViewUC.Dock = DockStyle.Fill; // Remplir le formulaire
-            this.Controls.Add(oneToOneViewUC); // Ajouter le contrôle au formulaire
+            oneToOneViewUC.Dock = DockStyle.Fill;
+            this.Controls.Add(oneToOneViewUC); 
         }
     }
 }
