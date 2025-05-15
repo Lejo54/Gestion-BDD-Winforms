@@ -3,8 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\TestWithUC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96C32F03-1A00-4857-BA95-D52984DD1372}|TestWithUC\\TestWithUC.csproj|c:\\users\\fcnma\\documents\\uni\\saea21\\a21 main\\sae-a21-faucon-cuiller-wahl\\testwithuc\\testwithuc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96C32F03-1A00-4857-BA95-D52984DD1372}|TestWithUC\\TestWithUC.csproj|C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\TestWithUC\\testwithuc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C32F03-1A00-4857-BA95-D52984DD1372}|TestWithUC\\TestWithUC.csproj|solutionrelative:testwithuc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\1-1View_UC\\1-1View_UC\\1-1View_UC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96C32F03-1A00-4857-BA95-D52984DD1372}|TestWithUC\\TestWithUC.csproj|C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\TestWithUC\\testwithuc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -13,9 +16,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{96C32F03-1A00-4857-BA95-D52984DD1372}|TestWithUC\\TestWithUC.csproj|C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\TestWithUC\\testwithuc\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C32F03-1A00-4857-BA95-D52984DD1372}|TestWithUC\\TestWithUC.csproj|solutionrelative:testwithuc\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\1-1View_UC\\1-1View_UC\\1-1View_UC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96C32F03-1A00-4857-BA95-D52984DD1372}|TestWithUC\\TestWithUC.csproj|C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\TestWithUC\\testwithuc\\mesdatas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,13 +37,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "1-1View_UC.cs",
               "DocumentMoniker": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\1-1View_UC\\1-1View_UC\\1-1View_UC.cs",
               "RelativeDocumentMoniker": "..\\1-1View_UC\\1-1View_UC\\1-1View_UC.cs",
-              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\1-1View_UC\\1-1View_UC\\1-1View_UC.cs*",
-              "RelativeToolTip": "..\\1-1View_UC\\1-1View_UC\\1-1View_UC.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\1-1View_UC\\1-1View_UC\\1-1View_UC.cs",
+              "RelativeToolTip": "..\\1-1View_UC\\1-1View_UC\\1-1View_UC.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T18:08:01.018Z",
               "EditorCaption": ""
@@ -58,12 +58,11 @@
               "RelativeToolTip": "TestWithUC\\mesDatas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T18:02:16.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T18:02:16.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Connexion.cs",
               "DocumentMoniker": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\TestWithUC\\TestWithUC\\Connexion.cs",
               "RelativeDocumentMoniker": "TestWithUC\\Connexion.cs",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "TestWithUC\\Connexion.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T17:59:31.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T17:59:31.431Z"
             },
             {
               "$type": "Document",
@@ -80,9 +78,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\TestWithUC\\TestWithUC\\Form1.cs",
               "RelativeDocumentMoniker": "TestWithUC\\Form1.cs",
-              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\TestWithUC\\TestWithUC\\Form1.cs*",
-              "RelativeToolTip": "TestWithUC\\Form1.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCsAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\TestWithUC\\TestWithUC\\Form1.cs",
+              "RelativeToolTip": "TestWithUC\\Form1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCkAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T18:53:57.406Z",
               "EditorCaption": ""
@@ -102,12 +100,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\TestWithUC\\TestWithUC\\Form1.cs",
               "RelativeDocumentMoniker": "TestWithUC\\Form1.cs",
-              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\TestWithUC\\TestWithUC\\Form1.cs [Design]*",
-              "RelativeToolTip": "TestWithUC\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\TestWithUC\\TestWithUC\\Form1.cs [Design]",
+              "RelativeToolTip": "TestWithUC\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T18:16:34.302Z",
               "EditorCaption": " [Design]"

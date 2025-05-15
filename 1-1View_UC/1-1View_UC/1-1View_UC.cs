@@ -38,7 +38,10 @@ namespace _1_1View_UC
     private void OneToOneViewUC_Load(object sender, EventArgs e)
         {
 
+            //make it responsive to window size
 
+            this.Dock = DockStyle.Fill;
+            this.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
 
 
 
@@ -91,7 +94,6 @@ namespace _1_1View_UC
 
             lblTypeEngin.DataBindings.Add("Text", bs2, "codeTypeEngin");
 
-            dataGridView1.DataSource = bs2;
 
             }
         }
@@ -129,6 +131,11 @@ namespace _1_1View_UC
         private void btnLast_Click(object sender, EventArgs e)
         {
             bs2.MoveLast();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

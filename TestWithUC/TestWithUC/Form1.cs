@@ -40,7 +40,7 @@ namespace TestWithUC
 
 
             OneToOneViewUC oneToOneViewUC = new OneToOneViewUC(MesDatas.DsGlobal);
-            oneToOneViewUC.Dock = DockStyle.Fill;
+            oneToOneViewUC.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             this.Controls.Add(oneToOneViewUC); 
         }
     }
