@@ -38,10 +38,9 @@ namespace TestWithUC
                 da.Fill(MesDatas.DsGlobal, nomtable);
             }
 
-
-            OneToOneViewUC oneToOneViewUC = new OneToOneViewUC(MesDatas.DsGlobal);
-            oneToOneViewUC.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            this.Controls.Add(oneToOneViewUC); 
+            OneToOneViewUC o = new OneToOneViewUC(MesDatas.DsGlobal);
+            o.Dock = DockStyle.Fill; //On remplit le UserControl
+            this.Controls.Add(o); //On l'ajoute au Form
         }
     }
 }

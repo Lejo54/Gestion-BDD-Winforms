@@ -37,45 +37,14 @@ namespace _1_1View_UC
 
     private void OneToOneViewUC_Load(object sender, EventArgs e)
         {
-
-            //make it responsive to window size
-
-            this.Dock = DockStyle.Fill;
-            this.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-
-
-
-
-
-
-
-
-            ////////////:A enlever
-            SQLiteConnection cx = Connexion.Connec; //On se connecte
-            DataTable dt = cx.GetSchema("Tables"); //On crée un DataTable pour contenir les données de la table
-
-            string requete; _ds = new DataSet();
-
-            foreach (DataRow row in dt.Rows)
-            {
-                string nomtable = row["TABLE_NAME"].ToString(); //On récupère le nom de la table
-                requete = "SELECT * FROM " + nomtable;
-                SQLiteCommand cmd = new SQLiteCommand(requete, cx);
-                SQLiteDataAdapter da = new SQLiteDataAdapter(cmd);
-
-                da.Fill(_ds, nomtable);
-            }
-
-
-
             if (!DesignMode)
             {
 
+
                 _ds.Relations.Add("lien",
-                        _ds.Tables["Caserne"].Columns["id"],
-                        _ds.Tables["Engin"].Columns["idCaserne"]);
-                ////////////////////////////
-                ///
+                _ds.Tables["Caserne"].Columns["id"],
+                _ds.Tables["Engin"].Columns["idCaserne"]);
+           
 
 
 
@@ -86,20 +55,119 @@ namespace _1_1View_UC
                 cboCasernes.DataSource = bs;
 
 
-            //Ajout d'un BindingSource pour récuperer les engins
-            bs2 = new BindingSource { DataSource = bs };
-            bs2.DataMember = "lien";
-            //creer un string qui contient le numero de la caserne, puis le type d'engin, puis son code
+                //Ajout d'un BindingSource pour récuperer les engins
+                bs2 = new BindingSource { DataSource = bs };
+                bs2.DataMember = "lien";
 
 
-            lblTypeEngin.DataBindings.Add("Text", bs2, "codeTypeEngin");
+                bs2.PositionChanged += Bs2_PositionChanged;
+                bs2.Position = 0;
+                UpdateCasernesLabel();
+
+                bs.CurrentChanged += Bs_CurrentChanged;
+
+
 
 
             }
         }
 
+        private void Bs_CurrentChanged(object sender, EventArgs e)
+        {
+            UpdateCasernesLabel();
+        }
+        private void Bs2_PositionChanged(object sender, EventArgs e)
+        {
+            UpdateCasernesLabel();
+        }
 
+        private void UpdateCasernesLabel()
+        {
+            lblTypeEngin.Text = GetCaserneEnginInfo();
+            lblDateRecep.Text = GetCaserneEnginDate(); 
+            lblMission.Text = GetCaserneEnginMissionStatus();
+            lblPanne.Text = GetCaserneEnginPanneStatus();
+            pctPinpom.Image = GetCaserneEnginImage();
 
+        }
+
+        private Image GetCaserneEnginImage()
+        {
+            if (bs.Current is DataRowView caserneRow && bs2.Current is DataRowView enginRow)
+            {
+                string typeEngin = enginRow["codeTypeEngin"].ToString();
+                object resource = Properties.Resources.ResourceManager.GetObject(typeEngin);
+
+                if (resource is Image image)
+                {
+                    return image;
+                }
+                else
+                {
+                    // L'objet trouvé n'était pas une image
+                    return null;
+                }
+            }
+
+            return null;
+        }
+        private string GetCaserneEnginInfo()
+        {
+            if (bs.Current is DataRowView caserneRow && bs2.Current is DataRowView enginRow)
+            {
+                string caserneNum = caserneRow["id"].ToString();
+                string typeEngin = enginRow["codeTypeEngin"].ToString();
+                string code = enginRow["numero"].ToString();
+                return $"{caserneNum}-{typeEngin}-{code}";
+            }
+            return string.Empty;
+        }
+
+        private string GetCaserneEnginDate()
+        {
+            if (bs.Current is DataRowView caserneRow && bs2.Current is DataRowView enginRow)
+            {
+                string date = enginRow["dateReception"].ToString();
+                return date;
+            }
+            return string.Empty;
+        }
+
+        private string GetCaserneEnginMissionStatus()
+        {
+            if (bs.Current is DataRowView caserneRow && bs2.Current is DataRowView enginRow)
+            {
+                string status = "";
+                if (enginRow["enMission"].ToString() == "0")
+                {
+                    status+="Disponible";
+                }
+                else if (enginRow["enMission"].ToString() == "1")
+                {
+                    status+="En mission";
+                }
+                return status;
+            }
+            return string.Empty;
+        }
+
+        private string GetCaserneEnginPanneStatus()
+        {
+            if (bs.Current is DataRowView caserneRow && bs2.Current is DataRowView enginRow)
+            {
+                string status = "";
+                if (enginRow["enPanne"].ToString() == "0")
+                {
+                    status += "Fonctionnel :D";
+                }
+                else if (enginRow["enPanne"].ToString() == "1")
+                {
+                    status += "En panne :(";
+                }
+                return status;
+            }
+            return string.Empty;
+        }
         private void btnFirst_Click(object sender, EventArgs e)
         {
             bs2.MoveFirst();
@@ -133,9 +201,5 @@ namespace _1_1View_UC
             bs2.MoveLast();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

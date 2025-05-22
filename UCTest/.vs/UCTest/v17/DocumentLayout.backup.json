@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\UCTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D5AA4-ED9F-4C6C-BF71-CB1C946C2F22}|UCTest\\UCTest.csproj|c:\\users\\fcnma\\documents\\uni\\saea21\\a21 main\\sae-a21-faucon-cuiller-wahl\\uctest\\uctest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D5AA4-ED9F-4C6C-BF71-CB1C946C2F22}|UCTest\\UCTest.csproj|solutionrelative:uctest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D5AA4-ED9F-4C6C-BF71-CB1C946C2F22}|UCTest\\UCTest.csproj|c:\\users\\fcnma\\documents\\uni\\saea21\\a21 main\\sae-a21-faucon-cuiller-wahl\\uctest\\uctest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D56D5AA4-ED9F-4C6C-BF71-CB1C946C2F22}|UCTest\\UCTest.csproj|solutionrelative:uctest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\UCTest\\UCTest\\Form1.cs",
+              "RelativeDocumentMoniker": "UCTest\\Form1.cs",
+              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\UCTest\\UCTest\\Form1.cs",
+              "RelativeToolTip": "UCTest\\Form1.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:42:26.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\UCTest\\UCTest\\Form1.cs",
+              "RelativeDocumentMoniker": "UCTest\\Form1.cs",
+              "ToolTip": "C:\\Users\\fcnma\\Documents\\Uni\\saeA21\\a21 MAIN\\sae-a21-FAUCON-CUILLER-WAHL\\UCTest\\UCTest\\Form1.cs [Design]",
+              "RelativeToolTip": "UCTest\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:42:05.675Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -121,13 +121,43 @@
   <data name="B" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BRS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BSR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CCF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CCF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EPA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>EPA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="F" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>F.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FB" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>FB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FCYN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>FCYN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FF" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>FF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FPT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>FPT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VID" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>VID.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>VPC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VSAV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>VSAV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VSR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>VSR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>VSS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
