@@ -9,12 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
 using _1_1View_UC;
+using newMission;
+using System.Security.Cryptography;
 
 namespace TestWithUC
 {
     public partial class Form1 : Form
     {
-
         public Form1()
         {
             InitializeComponent();
@@ -37,10 +38,40 @@ namespace TestWithUC
 
                 da.Fill(MesDatas.DsGlobal, nomtable);
             }
+            //85, 180
+
+
+        }
+        private void ShowControl(UserControl newUC)
+        {
+            // Supprimer tous les UC sauf celui qu'on veut afficher
+            newUC.Location = new Point(85, 180);
+            foreach (Control c in this.Controls.OfType<UserControl>().ToList())
+            {
+                this.Controls.Remove(c);
+                c.Dispose(); // Libère les ressources
+            }
+
+           
+                this.Controls.Add(newUC);
+                newUC.BringToFront();
+        
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
 
             OneToOneViewUC o = new OneToOneViewUC(MesDatas.DsGlobal);
-            o.Dock = DockStyle.Fill; //On remplit le UserControl
-            this.Controls.Add(o); //On l'ajoute au Form
+            ShowControl(o);
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            newMission.newMission o2 = new newMission.newMission(MesDatas.DsGlobal);
+
+            ShowControl(o2);
         }
     }
 }

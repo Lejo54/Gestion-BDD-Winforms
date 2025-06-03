@@ -54,7 +54,7 @@
             this.cboCasernes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboCasernes.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboCasernes.FormattingEnabled = true;
-            this.cboCasernes.Location = new System.Drawing.Point(50, 14);
+            this.cboCasernes.Location = new System.Drawing.Point(50, 16);
             this.cboCasernes.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cboCasernes.Name = "cboCasernes";
             this.cboCasernes.Size = new System.Drawing.Size(226, 30);
@@ -73,7 +73,7 @@
             this.btnLast.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnLast.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(45)))), ((int)(((byte)(102)))));
             this.btnLast.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLast.Location = new System.Drawing.Point(875, 14);
+            this.btnLast.Location = new System.Drawing.Point(875, 16);
             this.btnLast.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(75, 75);
@@ -94,7 +94,7 @@
             this.btnNext.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(45)))), ((int)(((byte)(102)))));
             this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNext.Location = new System.Drawing.Point(788, 14);
+            this.btnNext.Location = new System.Drawing.Point(788, 16);
             this.btnNext.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 75);
@@ -115,7 +115,7 @@
             this.btnPrevious.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnPrevious.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(45)))), ((int)(((byte)(102)))));
             this.btnPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrevious.Location = new System.Drawing.Point(701, 14);
+            this.btnPrevious.Location = new System.Drawing.Point(701, 16);
             this.btnPrevious.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(75, 75);
@@ -136,7 +136,7 @@
             this.btnFirst.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnFirst.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(45)))), ((int)(((byte)(102)))));
             this.btnFirst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFirst.Location = new System.Drawing.Point(614, 14);
+            this.btnFirst.Location = new System.Drawing.Point(614, 16);
             this.btnFirst.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnFirst.Name = "btnFirst";
             this.btnFirst.Size = new System.Drawing.Size(75, 75);
@@ -147,6 +147,8 @@
             // pctPinpom
             // 
             this.pctPinpom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pctPinpom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(28)))), ((int)(((byte)(61)))));
+            this.pctPinpom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pctPinpom.Image = ((System.Drawing.Image)(resources.GetObject("pctPinpom.Image")));
             this.pctPinpom.Location = new System.Drawing.Point(572, 72);
             this.pctPinpom.Name = "pctPinpom";
@@ -166,7 +168,7 @@
             this.panel1.Controls.Add(this.lblTypeEngin);
             this.panel1.Controls.Add(this.lblDateRecep);
             this.panel1.Controls.Add(this.lblMission);
-            this.panel1.Location = new System.Drawing.Point(50, 100);
+            this.panel1.Location = new System.Drawing.Point(50, 102);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(900, 450);
             this.panel1.TabIndex = 15;
@@ -175,12 +177,12 @@
             // 
             this.lblPanne.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblPanne.AutoSize = true;
-            this.lblPanne.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPanne.ForeColor = System.Drawing.Color.SkyBlue;
+            this.lblPanne.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPanne.ForeColor = System.Drawing.Color.Transparent;
             this.lblPanne.Location = new System.Drawing.Point(18, 305);
             this.lblPanne.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblPanne.Name = "lblPanne";
-            this.lblPanne.Size = new System.Drawing.Size(177, 33);
+            this.lblPanne.Size = new System.Drawing.Size(173, 32);
             this.lblPanne.TabIndex = 13;
             this.lblPanne.Text = "placeholder";
             // 
@@ -188,12 +190,12 @@
             // 
             this.lblDate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblDate.AutoSize = true;
-            this.lblDate.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.ForeColor = System.Drawing.Color.SkyBlue;
+            this.lblDate.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.ForeColor = System.Drawing.Color.Transparent;
             this.lblDate.Location = new System.Drawing.Point(18, 147);
             this.lblDate.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(275, 33);
+            this.lblDate.Size = new System.Drawing.Size(268, 32);
             this.lblDate.TabIndex = 8;
             this.lblDate.Text = "Date de réception :";
             // 
@@ -201,12 +203,12 @@
             // 
             this.lblNum.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblNum.AutoSize = true;
-            this.lblNum.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNum.ForeColor = System.Drawing.Color.SkyBlue;
+            this.lblNum.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNum.ForeColor = System.Drawing.Color.Transparent;
             this.lblNum.Location = new System.Drawing.Point(18, 70);
             this.lblNum.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblNum.Name = "lblNum";
-            this.lblNum.Size = new System.Drawing.Size(135, 33);
+            this.lblNum.Size = new System.Drawing.Size(134, 32);
             this.lblNum.TabIndex = 10;
             this.lblNum.Text = "Numéro :";
             // 
@@ -215,7 +217,7 @@
             this.lblTypeEngin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblTypeEngin.AutoSize = true;
             this.lblTypeEngin.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTypeEngin.ForeColor = System.Drawing.Color.SkyBlue;
+            this.lblTypeEngin.ForeColor = System.Drawing.Color.Transparent;
             this.lblTypeEngin.Location = new System.Drawing.Point(165, 70);
             this.lblTypeEngin.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblTypeEngin.Name = "lblTypeEngin";
@@ -228,7 +230,7 @@
             this.lblDateRecep.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblDateRecep.AutoSize = true;
             this.lblDateRecep.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDateRecep.ForeColor = System.Drawing.Color.SkyBlue;
+            this.lblDateRecep.ForeColor = System.Drawing.Color.Transparent;
             this.lblDateRecep.Location = new System.Drawing.Point(305, 147);
             this.lblDateRecep.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblDateRecep.Name = "lblDateRecep";
@@ -240,12 +242,12 @@
             // 
             this.lblMission.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblMission.AutoSize = true;
-            this.lblMission.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMission.ForeColor = System.Drawing.Color.SkyBlue;
+            this.lblMission.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMission.ForeColor = System.Drawing.Color.Transparent;
             this.lblMission.Location = new System.Drawing.Point(18, 254);
             this.lblMission.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMission.Name = "lblMission";
-            this.lblMission.Size = new System.Drawing.Size(177, 33);
+            this.lblMission.Size = new System.Drawing.Size(173, 32);
             this.lblMission.TabIndex = 9;
             this.lblMission.Text = "placeholder";
             // 
@@ -262,9 +264,10 @@
             this.Controls.Add(this.btnFirst);
             this.Controls.Add(this.cboCasernes);
             this.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "OneToOneViewUC";
-            this.Size = new System.Drawing.Size(1000, 598);
+            this.Size = new System.Drawing.Size(1000, 600);
             this.Load += new System.EventHandler(this.OneToOneViewUC_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pctPinpom)).EndInit();
             this.panel1.ResumeLayout(false);

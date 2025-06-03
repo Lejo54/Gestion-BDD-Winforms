@@ -38,6 +38,9 @@
     <Reference Include="1-1View_UC">
       <HintPath>..\..\1-1View_UC\1-1View_UC\bin\Debug\1-1View_UC.dll</HintPath>
     </Reference>
+    <Reference Include="newMission">
+      <HintPath>..\..\newMission.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.SQLite, Version=1.0.119.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
