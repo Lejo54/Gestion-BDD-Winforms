@@ -1,20 +1,23 @@
-# SAE A21
+# Application de gestion d'une BDD
+
+**Ce projet à été fait durant la première année du BUT informatique de l'IUT Robert Schuman. Il a donc été encadré par des enseignants et codé dans un cadre scolaire.**
+
+Ce projet a pour but de créer une application Winforms, qui vise à gèrer une base de [données spécifique](./Sujet-BDD/SDIS67.db)
+
+## Organisation
+* Travail en trinôme, avec [Joseph C.](https://github.com/Lejo54) et [Matéo W.](https://github.com/Zeyn-n)
+
+[Lien vers le sujet](./Sujet-BDD/Sujet%20SAE%2024%20Caserne%20-%20Session%202025.pdf)
 
 
+## Comment lancer le programme
 
-## Cqui faut faire
-Bon z'êtes pas cons, vous savez ce qu'il faut faire
+**W.I.P**
 
-## Liens au cazou
-[Lien vers le sujet](https://git.unistra.fr/m.faucon/sae-a21-FAUCON-CUILLER-WAHL/-/tree/main/Sujet-BDD)
-
-[Le cousin](https://chatgpt.com) | on se sait
-
-[Le graal](https://stackoverflow.com) | Stackoverflow, vrm un banger ce site UTILISEZ LE SVP le cousin il est con parfois
-
+* Pour l'instant, il faut ouvrir le projet via **Visual Studio** et le lancer depuis l'interface graphique. 
 
 ## Conventions de nommage
-Faut bien faire attention, on va tout nommer d'une certaine façon
+Nous avons décidé de nommer les composants d'une manière spécifique.
 
 **On abbrévie le composant en minuscule, et on rajoute le nom au bout**
 
@@ -37,8 +40,4 @@ Faut bien faire attention, on va tout nommer d'une certaine façon
 
 ## Conventions de code
 
-**On fait tout en dynamique** (Tout du moins, on essaie du mieux qu'on peut).
-
 Si possible, prioriser **les BindingSources** pour manipuler/remplir les bases de données et/ou composants.
-
-Niveau couleurs, on verra plus tard ce qui est le plus beau
