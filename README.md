@@ -5,7 +5,7 @@
 Ce projet a pour but de créer une application Winforms, qui vise à gèrer une base de [données spécifique](./Sujet-BDD/SDIS67.db)
 
 ## Organisation
-* Travail en trinôme, avec [Joseph C.](https://github.com/Lejo54) et [Matéo W.](https://github.com/Zeyn-n)
+* Travail en trinôme, avec [Mathéo F.](https://github.com/Onefrenchboi) et [Matéo W.](https://github.com/Zeyn-n)
 
 [Lien vers le sujet](./Sujet-BDD/Sujet%20SAE%2024%20Caserne%20-%20Session%202025.pdf)
 
