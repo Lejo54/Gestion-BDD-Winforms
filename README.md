@@ -6,6 +6,7 @@ Ce projet a pour but de créer une application Winforms, qui vise à gèrer une 
 
 ## Organisation
 * Travail en trinôme, avec [Mathéo F.](https://github.com/Onefrenchboi) et [Matéo W.](https://github.com/Zeyn-n)
+* Langages/Outils utilisés: C#, .NET, Sqlite, Visual Studio
 
 [Lien vers le sujet](./Sujet-BDD/Sujet%20SAE%2024%20Caserne%20-%20Session%202025.pdf)
 
